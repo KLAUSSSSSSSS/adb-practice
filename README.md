@@ -9,3 +9,6 @@ adb logcat *:E > error_logs.txt
 adb pull /sdcard/Download/cavli_c10qm_at_command_manual_erv_1.9.pdf
 ##5: Push File
 adb push localfile.txt /sdcard/Download/
+## 6: Screenshot
+adb shell screencap -p /sdcard/screen.png
+adb pull /sdcard/screen.png
