@@ -7,3 +7,5 @@ adb logcat -d > logcat.txt
 adb logcat *:E > error_logs.txt
 ## 4: Pull file from device
 adb pull /sdcard/Download/cavli_c10qm_at_command_manual_erv_1.9.pdf
+##5: Push File
+adb push localfile.txt /sdcard/Download/
